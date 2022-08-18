@@ -310,3 +310,118 @@ body{
     justify-content: center;
     background-color: #1E1E1E;
 }
+
+@media screen and (max-width:415px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .item-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .logo{
+        position: unset;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        float: left;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .arthur{
+        width: 400px;
+        margin-left: -60px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .greet{
+        font-size: 25px;
+        width: 310px;
+    }
+    .designation{
+        font-size: 40px;
+        width: 310px;
+    }
+    .loren{
+        font-size: 18px;
+        width: 310px;
+    }
+    .black-box{
+        display: flex;
+        flex-direction: column;
+        height: 2000px;
+    }
+    .first-row{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -330px;
+        gap: 30px;       
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -550px;
+        margin-top: 250px;
+    }
+    .big{
+        position: relative;
+        left: -200px;
+    }
+    .featured{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .project img{
+        width: 220px;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+    }
+    .work h1{
+        font-size: 25px;
+        width: 250px;
+    }
+    .work p{
+        font-size: 14px;
+        width: 300px;
+    }
+    .collab button{
+        position: relative;
+        left: -640px;
+        top: 100px;
+    }
+    .footer :first-child{
+        position: unset;
+        margin-left: 10px;
+    }
+}
